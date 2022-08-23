@@ -40,3 +40,11 @@ https://hardhat.org/hardhat-chai-matchers/docs/migrate-from-waffle
 npx hardhat run scripts/run.js
 ```
 
+
+## Implementations notes
+
+ERC721 token with storage based token URI management
+```javascript
+import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
+```
+
